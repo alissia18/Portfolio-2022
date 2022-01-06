@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>Adventures in Alaska</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li>Applications
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="thefirescurse.html">The Fire's Curse</a></li>
+                    <li><a href="detritus.html">Detritus: Trashtective</a></li>
+                    <li><a href="forestfrolic.html">Forest Frolic</a></li>
+                    <li><a href="banking.html">Banking</a></li>
+                  </ul>
+            </li>
+            <li>Web design
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="adventuresinalaska.html">Adventures in Alaska</a></li>
+                    <li><a href="portfoliosite.html">Portfolio Website</a></li>
+                  </ul>
+            </li>
+            <li>3D & 2D Art
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="underwaterpromenade.html">Underwater Promenade</a></li>
+                    <li><a href="conceptart.html">Concept Artwork</a></li>
+                  </ul>
+            </li>
+            <li>Music
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="sinners.html">Sinners (Cover)</a></li>
+                  </ul>
+            </li>
+        </nav>
+    </header>
+    <content>
+        <section>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+              </div>
+            <div class="title">Adventures in Alaska</div>
+            <div class="sub">An Immersive Web Journey</div>
+            <button onclick="location.href='https://adventuresinalaska.netlify.app/'" type="button">
+                Visit Site</button>
+                <button onclick="location.href='https://github.com/alissia18/adventuresinalaska'" type="button">
+                    View Code on Github</button>
+            <div class="title2">Process</div>
+            <div class="wrapper">
+                <div class="image" id="ap1">
+                    <img class="js-image" id="aimg1" src="images/img1.png">
+                </div>
+                <div class="info" id="adv1">
+                    This website was created in Visual Studio Code using HTML, CSS, and JavaScript. It took four months of on-and-off development to complete. This was my first time ever using JavaScript for development, so I had to do a lot of research before beginning to code the website. Once I had understood enough of the basics, I began to collect images and text for the website. The site is a documentation of a trip I took, so I used my own pictures and wrote my own explanations. I then moved onto coding the website, adding animations and transitions wherever possible to make it more engaging. By far the biggest challenge was animating SVG graphics, but after that was achieved, the website reached completion at last.
+                </div>
+            </div>
+           <div class="title2">Intentions</div>
+           <div class="wrapper">
+           
+            <div class="info" id="adv2">
+                The intention of this website was to tell the story of a trip I had taken with my family several years ago. I wanted to take the viewer on a journey along with me. The website consists of six sections, though only one section is available when the site is first loaded. The viewer reads the section, then clicks a button to continue. As this button is clicked, the next section appears, and there is a travelling line on the map leading to the next destination. This mechanic hopefully makes the viewer feel as though they are on the trip with me. There is a dynamic navigation screen which evolves as the sections become visible, allowing the viewer to revisit certain sections if they wish. 
+            </div>
+            <div class="image" id="ap2">
+                <img class="js-image" id="aimg2"src="images/img2.png">
+            </div>
+          
+           </div>
+           
+
+        </section>
+
+    </content>
+    <script src="script.js"></script>
+</body>
+
+</html>

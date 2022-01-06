@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li>Applications
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="thefirescurse.html">The Fire's Curse</a></li>
+                    <li><a href="detritus.html">Detritus: Trashtective</a></li>
+                    <li><a href="forestfrolic.html">Forest Frolic</a></li>
+                    <li><a href="banking.html">Banking</a></li>
+                  </ul>
+            </li>
+            <li>Web design
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="adventuresinalaska.html">Adventures in Alaska</a></li>
+                    <li><a href="portfoliosite.html">Portfolio Website</a></li>
+                  </ul>
+            </li>
+            <li>3D & 2D Art
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="underwaterpromenade.html">Underwater Promenade</a></li>
+                    <li><a href="conceptart.html">Concept Artwork</a></li>
+                  </ul>
+            </li>
+            <li>Music
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="sinners.html">Sinners (Cover)</a></li>
+                  </ul>
+            </li>
+          
+        </nav>
+    </header>
+    <content>
+        <section>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+              </div>
+            <div class="title">Portfolio Website</div>
+            <div class="sub">A Showcase of Creative Works</div>
+                <button onclick="location.href='https://github.com/alissia18/portfolio'" type="button">
+                    View Code on Github</button>
+            <div class="title2">Process</div>
+            <div class="wrapper">
+                <div class="image" id="ap1">
+                    <img class="js-image" id="pimg1" src="images/portfolio/website1.jpg">
+                </div>
+                <div class="info" id="adv1">
+                    This website was created in Visual Studio Code using HTML, CSS, and JavaScript. It took a month of development to finish. This was my second complete website made from scratch, so the process was slightly more efficient than the first (Adventures in Alaska, also featured in this portfolio). This time, I had little research to do. I simply applied what I knew about HTML, JavaScript and CSS to create an appealing yet clear and concise website. The biggest challenge was figuring out the overall aesthetic of the site but once that was decided, the creation process was mostly smooth compared to my other projects.
+                </div>
+            </div>
+           <div class="title2">Intentions</div>
+           <div class="wrapper">
+           
+            <div class="info" id="adv2">
+                The intention of this website is to showcase my best creative works involving both technology and visual art. The dark palette with neon accents is meant to make the website feel modern with a technological feel to represent my dual interest in both art and computer science. When creating the website, I chose legible fonts and increased the font size sufficiently so that no one would need to squint when visiting the site. I added the ability to enlarge images for the same reason. Finally, I thought about the spacing of each section to ensure no page would feel too crowded. 
+            </div>
+            <div class="image" id="ap2">
+                <img class="js-image" id="pimg2"src="images/portfolio/website2.jpg">
+            </div>
+          
+           </div>
+           
+
+        </section>
+
+        </content>
+        <script src="script.js"></script>
+
+    </body>
+
+    </html>

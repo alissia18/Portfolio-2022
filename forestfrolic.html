@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>Forest Frolic</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li>Applications
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="thefirescurse.html">The Fire's Curse</a></li>
+                    <li><a href="detritus.html">Detritus: Trashtective</a></li>
+                    <li><a href="forestfrolic.html">Forest Frolic</a></li>
+                    <li><a href="banking.html">Banking</a></li>
+                  </ul>
+            </li>
+            <li>Web design
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="adventuresinalaska.html">Adventures in Alaska</a></li>
+                    <li><a href="portfoliosite.html">Portfolio Website</a></li>
+                  </ul>
+            </li>
+            <li>3D & 2D Art
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="underwaterpromenade.html">Underwater Promenade</a></li>
+                    <li><a href="conceptart.html">Concept Artwork</a></li>
+                  </ul>
+            </li>
+            <li>Music
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="sinners.html">Sinners (Cover)</a></li>
+                  </ul>
+            </li>
+        </nav>
+    </header>
+    <content>
+        <section>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+              </div>
+            <div class="title">Forest Frolic</div>
+            <div class="sub">A Platformer Prototype</div>
+            <button onclick="location.href='https://sketchedinthestars.itch.io/forest-frolic'" type="button">
+                Play on Itch.io</button>
+            <div class="video">
+                <iframe width="800" height="500" src="https://youtube.com/embed/rb9krQGX1dI"> </iframe>
+            </div>
+                
+           
+            <div class="title2">Process</div>
+           <div class="wrapper">
+            <div class="image" id="ffp1">
+                <img class="js-image" id="ffimg1" src="images/forest_frolic/menu.jpg">
+            </div>
+            <div class="info" id="ff1">
+                This project was created using the Godot game engine and its native scripting language, GDScript. I followed BornCG’s tutorial for most of this project since it was my first time programming in Godot. First, I designed a tile set, parallax background, an enemy, and a collectable flower object in Clip Studio Paint. I also drew a walk cycle for the main character. Next, I animated these elements and attached coding scripts to the character, enemy and flower. Following this, I added a life system to the game, allowing the player to get hit several times before they must start over. Lastly, I added a shooting mechanic which allows the player to attack the enemy using magic. As a finishing touch, I used BeepBox.io to compose the main menu music, in-game soundtrack, and sound effects. After polishing the code and making sure the game ran smoothly, I uploaded the project to itch.io and made it playable directly in-browser.
+            </div>
+          
+           </div>
+           <div class="title2">Intentions</div>
+           <div class="wrapper">
+           
+            <div class="info" id="ff2">
+                The intention of this project was to allow the player to escape into a fantastical environment and be diverted from their day-to-day life briefly while they play as Clara the elf and help her collect all the magic flowers while ridding the forest of dangerous evil spirits. This game is a prototype; if I were to fully develop it, I would add more varied levels and an overarching storyline to increase the interactivity and connection with the player.
+            </div>
+            <div class="image" id="ffp2">
+                <img class="js-image" id="ffimg2" src="images/forest_frolic/playing.jpg">
+            </div>
+          
+           </div>
+           <div class="title2">Credits</div>
+           <div class="info">
+               <a href="https://www.youtube.com/watch?v=HvPTSZl2WCc"> Tutorial created by BornCG on Youtube</a>
+            
+           </div>
+
+        </section>
+
+    </content>
+    <script src="script.js"></script>
+</body>
+
+</html>

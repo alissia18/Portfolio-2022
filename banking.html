@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>Banking</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li>Applications
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="thefirescurse.html">The Fire's Curse</a></li>
+                    <li><a href="detritus.html">Detritus: Trashtective</a></li>
+                    <li><a href="forestfrolic.html">Forest Frolic</a></li>
+                    <li><a href="banking.html">Banking</a></li>
+                  </ul>
+            </li>
+            <li>Web design
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="adventuresinalaska.html">Adventures in Alaska</a></li>
+                    <li><a href="portfoliosite.html">Portfolio Website</a></li>
+                  </ul>
+            </li>
+            <li>3D & 2D Art
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="underwaterpromenade.html">Underwater Promenade</a></li>
+                    <li><a href="conceptart.html">Concept Artwork</a></li>
+                  </ul>
+            </li>
+            <li>Music
+                <ul class="dropdown" aria-label="submenu">
+                    <li><a href="sinners.html">Sinners (Cover)</a></li>
+                  </ul>
+            </li>
+          
+        </nav>
+    </header>
+    <content>
+        <section>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+              </div>
+            <div class="title">Banking</div>
+            <div class="sub">A Java Console Project</div>
+            <button onclick="location.href='https://github.com/alissia18/banking/tree/main'" type="button">
+                View Code on Github</button>
+                
+           
+            <div class="title2">Process</div>
+           <div class="wrapper">
+            <div class="image" id="bp1">
+                <img class="js-image" id="ffimg1" src="images/banking/output1.png">
+            </div>
+            <div class="info" id="bpinfo1">
+                This project was my final project for my first semester programming course at Vanier College. It was a very ambitious project at the time since it was my first time designing a fully functional Java project. Before coding, I drew out a diagram to plan out the logic of the program. There were many classes that would have to interact with each other, so this was a helpful step in the process for structuring code from a high level. I then began to code the project in an assembly line fashion. First, I set up every class’s methods and properties, leaving everything empty at first and just making sure the class members were there. Next, I began to add code to each method, coding one functionality at a time. For example, I would code all the methods associated with account creation and make sure everything worked before moving onto coding the withdrawals and transactions.
+            </div>
+          
+           </div>
+           <div class="title2">Intentions</div>
+           <div class="wrapper">
+           
+            <div class="info" id="bpinfo2">
+                The main intention of this project was to showcase what I had learned in Java and Object-Oriented Programming basics throughout the semester. The goal was to make a banking application that functioned by taking and interpreting user input. The application can perform transactions such as deposits and withdrawals. It can also display lists of accounts associated with the bank, and transactions associated with an account. While making this project, despite it being in the console, I tried to make it as user friendly as possible. I added color to some of the text, especially the error messages and success messages. I also added spacers such as “===” to make the output easier to read. Overall, although I did not yet know how to make a user interface using JavaFX, I tried to maximize intuitiveness for the user as best I could, as practice for when I would be able to design those interfaces.
+            </div>
+            <div class="image" id="bp2">
+                <img class="js-image" id="ffimg2" src="images/banking/output2.png">
+            </div>
+          
+           </div>
+        </section>
+
+    </content>
+    <script src="script.js"></script>
+</body>
+
+</html>
