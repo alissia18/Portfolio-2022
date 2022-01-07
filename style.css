@@ -17,8 +17,6 @@ body {
   align-content: center;
 }
 section {
-  width: 84em;
-  height: 50em;
   text-align: center;
   padding-top: 2em;
 }
@@ -69,11 +67,6 @@ button:hover {
   padding-top: 0px;
 }
 
-.wrapper {
-  padding-bottom: 2em;
-  padding-top: 3em;
-}
-
 #img1 {
   width: 20em;
   height: 20em;
@@ -86,8 +79,11 @@ button:hover {
 .wrapper {
   margin-bottom: 50px;
   margin-top: 0px;
-  padding-right: 7em;
-  padding-left: 7em;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
 }
 #inf {
   max-width: 25em;
@@ -95,8 +91,7 @@ button:hover {
 .image {
   display: inline-block;
   vertical-align: middle;
-  padding-right: 1em;
-  padding-left: 0em;
+  padding: 1%;
 }
 .js-image {
   cursor: pointer;
@@ -147,7 +142,6 @@ button:hover {
 }
 .info {
   background-image: linear-gradient(rgba(108, 41, 94, 1), rgba(108, 41, 94, 0));
-  max-height: 20em;
   display: inline-block;
   text-align: center;
   font-size: 1.2em;
@@ -159,94 +153,12 @@ button:hover {
 .video {
   margin-bottom: 3em;
 }
-/**adventures in alaska specific **/
-#adv1,
-#adv2 {
-  max-width: 20em;
-}
-#ap1,
-#ap2 {
-  max-width: 40em;
-}
-
-/**Fire's Curse specific**/
-
-#fc1,
-#fc2 {
-  max-width: 25em;
-}
-
-#fcp1,
-#fcp2 {
-  max-width: 30em;
-}
-
-/**detritus specific**/
-#dt1,
-#dt2 {
-  max-width: 25em;
-}
-
-#dti1,
-#dti2 {
-  max-width: 35em;
-}
-
-/**forest frolic specific **/
-
-#ff1,
-#ff2 {
-  max-width: 20em;
-}
-
-#ffp1,
-#ffp2 {
-  max-width: 30em;
-}
-/**concept art page specific**/
-#ca1,
-#ca2 {
-  max-width: 35em;
-}
-#cainfo1,
-#cainfo2 {
-  max-width: 20em;
-}
-
-/**banking specific**/
-#bp1 {
-  max-width: 30em;
-}
-
-#bpinfo1 {
-  max-width: 20em;
-}
-#bpinfo2 {
-  max-width: 40em;
-}
-#bp2 {
-  max-width: 50em;
-}
-
-/**sinners specific**/
-#sinfo1,
-#sinfo2 {
-  max-width: 20em;
-}
-
-#simg1,
-#simg2 {
-  max-width: 30em;
-}
 
 nav {
   padding-top: 2em;
   text-align: center;
 }
 
-#fc {
-  max-width: 50em;
-}
 nav li {
   color: #fff;
   background: rgba(255, 140, 0, 0);
@@ -313,5 +225,26 @@ li ul li {
   }
   to {
     transform: scale(1);
+  }
+}
+.wrapper {
+  display: block;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    display: flex;
+    max-width: 80vw;
+  }
+  .info {
+    max-width: 40%;
   }
 }
